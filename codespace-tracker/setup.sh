@@ -46,35 +46,34 @@ fi
 echo "📦 Installing/upgrading dependencies from requirements.txt..."
 pip3 install --upgrade -r requirements.txt
 
-# 6. Boot ID logic (Self-aware Codespace!)
+# 6. Boot ID logic
 CURRENT_BOOT_ID=$(cat /proc/sys/kernel/random/boot_id)
 BOOT_ID_FILE="$TRACKER_DIR/boot_id.txt"
 
-if [ ! -s "$BOOT_ID_FILE" ]; then
-    echo "🟢 boot_id.txt missing or empty. Assuming fresh boot."
-    echo "$CURRENT_BOOT_ID" > "$BOOT_ID_FILE"
-elif [ "$CURRENT_BOOT_ID" != "$(cat "$BOOT_ID_FILE")" ]; then
-    echo "🟢 New boot detected during setup. Updating boot_id.txt..."
-    echo "$CURRENT_BOOT_ID" > "$BOOT_ID_FILE"
-else
-    echo "🕓 Same boot detected. Skipping chalu/start_all."
+# Read old boot ID (if any)
+OLD_BOOT_ID=""
+if [ -f "$BOOT_ID_FILE" ]; then
+    OLD_BOOT_ID=$(cat "$BOOT_ID_FILE")
 fi
 
-# 7. Initialize Session (if new boot)
-if [ "$CURRENT_BOOT_ID" != "$(cat "$BOOT_ID_FILE")" ] || [ ! -s "$BOOT_ID_FILE" ]; then
+# Compare and act
+if [ "$CURRENT_BOOT_ID" != "$OLD_BOOT_ID" ]; then
+    echo "🟢 New boot detected. Updating boot_id.txt and starting fresh session..."
+    echo "$CURRENT_BOOT_ID" > "$BOOT_ID_FILE"
+
     echo "🚀 Initializing new session via session_init.py..."
     python3 session_init.py
 
     echo "🧠 Starting all background trackers..."
     bash start_all.sh
 else
-    echo "🔁 Tracker already initialized this boot. Skipping start."
+    echo "🕓 Same boot detected. Skipping session_init and start_all."
 fi
 
-# 8. Make loop scripts executable
+# 7. Make loop scripts executable
 chmod +x runtime_loop.sh totalruntime_loop.sh
 
-# 9. Inject smart block into bashrc
+# 8. Inject smart block into bashrc
 bash injection.sh
 
 echo ""
