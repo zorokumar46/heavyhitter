@@ -1,10 +1,42 @@
 [
   {
-    "label": "3-minute restart_gaianet.sh",
+    "label": "20-hour browserbackup.sh",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/backup.sh",
+    "script_command": "bash backup.sh",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_browserbackup.flag",
+    "conditions": {
+      "total_runtime_hours": 20,
+      "current_session_minutes": 170
+    }
+  },
+  {
+    "label": "25-hour browserbackup.sh",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/backup.sh",
+    "script_command": "bash backup.sh",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_browserbackup.flag",
+    "conditions": {
+      "total_runtime_hours": 25
+    }
+  },
+  {
+    "label": "175-minute mega-uploader.sh",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/mega-uploader.sh",
+    "script_command": "bash mega-uploader.sh",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_mega-uploader.flag",
+    "conditions": {
+      "total_runtime_hours": 20,
+      "current_session_minutes": 175
+    }
+  },
+  {
+    "label": "4-minute restart_gaianet.sh",
     "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh",
     "script_command": "bash restart_gaianet.sh",
-    "cwd": "/workspaces/C93",
-    "flag_name": "trigger_3min.flag",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_restart_gaianet.flag",
     "conditions": {
       "minute_runtime_minutes": 2
     }
@@ -13,10 +45,10 @@
     "label": "docker_run",
     "script_url": "",
     "script_command": "docker start $(docker ps -a -q)",
-    "cwd": "/workspaces/C93",
-    "flag_name": "trigger_docker3min.flag",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_docker_2min.flag",
     "conditions": {
-      "current_session_minutes": 3
+      "current_session_minutes": 4
     }
   },
   {

@@ -1,0 +1,8 @@
+.logs/
+# Ignore all .log files anywhere in repo
+*.log
+
+# Optional: Ignore flags, logs, temp
+.codespace-tracker/flags/
+.logs/
+*.tmp

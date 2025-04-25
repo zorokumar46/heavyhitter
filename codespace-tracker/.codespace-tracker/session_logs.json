@@ -1,1 +1,98 @@
-[]
+[
+    {
+        "session_id": "2025-04-25T14:24:45.999047_f0cddcf4",
+        "start_time": "2025-04-25T14:24:45.999047",
+        "end_time": "2025-04-25T15:04:18.842747",
+        "duration_minutes": 39,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T15:04:19.320383_75282d47",
+        "start_time": "2025-04-25T15:04:19.320383",
+        "end_time": "2025-04-25T15:24:16.066651",
+        "duration_minutes": 9,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T15:24:16.103335_1f3fbf09",
+        "start_time": "2025-04-25T15:24:16.103335",
+        "end_time": "2025-04-25T17:09:13.700804",
+        "duration_minutes": 12,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T17:09:13.737008_99c3fc48",
+        "start_time": "2025-04-25T17:09:13.737008",
+        "end_time": "2025-04-25T17:24:16.499658",
+        "duration_minutes": 13,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T17:24:16.544463_362f830b",
+        "start_time": "2025-04-25T17:24:16.544463",
+        "end_time": "2025-04-25T18:42:30.614827",
+        "duration_minutes": 11,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T18:42:30.650271_cbe93b06",
+        "start_time": "2025-04-25T18:42:30.650271",
+        "end_time": "2025-04-25T18:52:42.263994",
+        "duration_minutes": 9,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T18:52:42.300897_cdc19089",
+        "start_time": "2025-04-25T18:52:42.300897",
+        "end_time": "2025-04-25T19:03:09.262904",
+        "duration_minutes": 9,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T19:03:09.299033_41afcbe3",
+        "start_time": "2025-04-25T19:03:09.299033",
+        "end_time": "2025-04-25T19:55:29.627925",
+        "duration_minutes": 9,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T19:55:29.664640_2ad140ff",
+        "start_time": "2025-04-25T19:55:29.664640",
+        "end_time": "2025-04-25T20:10:59.997509",
+        "duration_minutes": 12,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T20:11:00.035346_961c5b78",
+        "start_time": "2025-04-25T20:11:00.035346",
+        "end_time": "2025-04-25T20:20:21.787130",
+        "duration_minutes": 9,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T20:20:21.824414_11c05058",
+        "start_time": "2025-04-25T20:20:21.824414",
+        "end_time": "2025-04-25T20:24:13.304556",
+        "duration_minutes": 3,
+        "recovered": true,
+        "date": "2025-04-25"
+    },
+    {
+        "session_id": "2025-04-25T20:24:13.342122_a144da28",
+        "start_time": "2025-04-25T20:24:13.342122",
+        "end_time": "2025-04-25T20:34:10.711373",
+        "duration_minutes": 9,
+        "recovered": false,
+        "date": "2025-04-25"
+    }
+]

@@ -1,0 +1,224 @@
+[2025-04-25T14:24:45.999362] ✅ first_start.json created.
+[2025-04-25T14:24:45.999556] ✅ current_session.json initialized with session_id: 2025-04-25T14:24:45.999047_f0cddcf4
+[2025-04-25T14:24:45.999706] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T14:24:46.041850] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T14:25:46.064178] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T14:25:46.123421] ❌ Failed to run 3-minute restart_gaianet.sh: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:26:16.153690] ❌ Failed to run 3-minute restart_gaianet.sh: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:26:46.084665] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T14:26:46.165762] ❌ Failed to run 3-minute restart_gaianet.sh: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:26:46.166036] ❌ Failed to run docker_run: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:27:16.196747] ❌ Failed to run 3-minute restart_gaianet.sh: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:27:16.197031] ❌ Failed to run docker_run: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:27:46.104619] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T14:27:46.227718] ❌ Failed to run 3-minute restart_gaianet.sh: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:27:46.227967] ❌ Failed to run docker_run: [Errno 2] No such file or directory: '/workspaces/C93'
+[2025-04-25T14:28:46.125181] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T14:29:46.145432] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T14:30:46.165345] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T14:31:46.185762] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T14:31:46.438380] ⚠️ Monitoring error: Expecting property name enclosed in double quotes: line 10 column 5 (char 335)
+[2025-04-25T14:32:46.205829] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T14:33:46.225910] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T14:34:46.245950] Minute updated. Total: 11 mins | Session: 11 mins
+[2025-04-25T14:35:46.266276] Minute updated. Total: 12 mins | Session: 12 mins
+[2025-04-25T14:36:46.286387] Minute updated. Total: 13 mins | Session: 13 mins
+[2025-04-25T14:37:46.306449] Minute updated. Total: 14 mins | Session: 14 mins
+[2025-04-25T14:38:46.326746] Minute updated. Total: 15 mins | Session: 15 mins
+[2025-04-25T14:39:46.346770] Minute updated. Total: 16 mins | Session: 16 mins
+[2025-04-25T14:40:46.367127] Minute updated. Total: 17 mins | Session: 17 mins
+[2025-04-25T14:41:46.387226] Minute updated. Total: 18 mins | Session: 18 mins
+[2025-04-25T14:42:46.407356] Minute updated. Total: 19 mins | Session: 19 mins
+[2025-04-25T14:43:46.427419] Minute updated. Total: 20 mins | Session: 20 mins
+[2025-04-25T14:44:46.447750] Minute updated. Total: 21 mins | Session: 21 mins
+[2025-04-25T14:45:46.467856] Minute updated. Total: 22 mins | Session: 22 mins
+[2025-04-25T14:46:46.489489] Minute updated. Total: 23 mins | Session: 23 mins
+[2025-04-25T14:47:46.509912] Minute updated. Total: 24 mins | Session: 24 mins
+[2025-04-25T14:48:46.529923] Minute updated. Total: 25 mins | Session: 25 mins
+[2025-04-25T14:49:46.550017] Minute updated. Total: 26 mins | Session: 26 mins
+[2025-04-25T14:50:46.569867] Minute updated. Total: 27 mins | Session: 27 mins
+[2025-04-25T14:51:46.589886] Minute updated. Total: 28 mins | Session: 28 mins
+[2025-04-25T14:52:46.609814] Minute updated. Total: 29 mins | Session: 29 mins
+[2025-04-25T14:53:46.629763] Minute updated. Total: 30 mins | Session: 30 mins
+[2025-04-25T14:54:46.650196] Minute updated. Total: 31 mins | Session: 31 mins
+[2025-04-25T14:55:46.672093] Minute updated. Total: 32 mins | Session: 32 mins
+[2025-04-25T14:56:46.693035] Minute updated. Total: 33 mins | Session: 33 mins
+[2025-04-25T14:57:46.713503] Minute updated. Total: 34 mins | Session: 34 mins
+[2025-04-25T14:58:46.734193] Minute updated. Total: 35 mins | Session: 35 mins
+[2025-04-25T14:59:46.755462] Minute updated. Total: 36 mins | Session: 36 mins
+[2025-04-25T15:00:46.776805] Minute updated. Total: 37 mins | Session: 37 mins
+[2025-04-25T15:01:46.797966] Minute updated. Total: 38 mins | Session: 38 mins
+[2025-04-25T15:02:46.819037] Minute updated. Total: 39 mins | Session: 39 mins
+[2025-04-25T15:04:18.844148] 🔁 Updated unrecovered session: 2025-04-25T14:24:45.999047_f0cddcf4 | Duration set to 39 mins
+[2025-04-25T15:04:18.846530] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T15:04:19.356963] ✅ current_session.json initialized with session_id: 2025-04-25T15:04:19.320383_75282d47
+[2025-04-25T15:04:19.357188] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T15:04:49.424973] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T15:05:49.454131] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T15:06:49.474874] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T15:07:49.495089] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T15:08:49.515464] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T15:09:49.536064] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T15:10:49.556563] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T15:11:49.577027] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T15:12:49.597621] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T15:24:16.066791] 🔁 Updated unrecovered session: 2025-04-25T15:04:19.320383_75282d47 | Duration set to 9 mins
+[2025-04-25T15:24:16.067300] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T15:24:16.103994] ✅ current_session.json initialized with session_id: 2025-04-25T15:24:16.103335_1f3fbf09
+[2025-04-25T15:24:16.104179] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T15:24:46.155572] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T15:25:46.178189] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T15:26:46.202226] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T15:27:46.223963] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T15:28:46.244451] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T15:29:46.264856] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T15:30:46.285623] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T15:31:46.306193] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T15:32:46.327164] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T15:33:46.347791] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T15:34:46.368320] Minute updated. Total: 11 mins | Session: 11 mins
+[2025-04-25T15:35:46.389218] Minute updated. Total: 12 mins | Session: 12 mins
+[2025-04-25T17:09:13.700936] 🔁 Updated unrecovered session: 2025-04-25T15:24:16.103335_1f3fbf09 | Duration set to 12 mins
+[2025-04-25T17:09:13.701424] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T17:09:13.737581] ✅ current_session.json initialized with session_id: 2025-04-25T17:09:13.737008_99c3fc48
+[2025-04-25T17:09:13.737737] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T17:09:43.810198] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T17:10:43.842065] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T17:11:43.873017] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T17:12:43.894429] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T17:13:43.919997] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T17:13:43.980638] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:14:14.010942] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:14:43.941133] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T17:14:44.027985] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:15:14.058266] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:15:43.961525] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T17:15:44.088574] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:16:14.092040] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:16:43.982076] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T17:16:44.111636] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:17:14.141943] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:17:44.002697] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T17:17:44.172205] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:18:14.176957] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:18:44.023450] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T17:18:44.193006] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:19:14.223298] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:19:44.044037] Minute updated. Total: 11 mins | Session: 11 mins
+[2025-04-25T17:19:44.253575] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:20:14.283837] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:20:44.064495] Minute updated. Total: 12 mins | Session: 12 mins
+[2025-04-25T17:20:44.286924] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:21:14.312952] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:21:44.085158] Minute updated. Total: 13 mins | Session: 13 mins
+[2025-04-25T17:21:44.343252] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:22:14.369564] ⚠️ Monitoring error: Expecting value: line 1 column 1 (char 0)
+[2025-04-25T17:24:16.499834] 🔁 Updated unrecovered session: 2025-04-25T17:09:13.737008_99c3fc48 | Duration set to 13 mins
+[2025-04-25T17:24:16.500473] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T17:24:16.545131] ✅ current_session.json initialized with session_id: 2025-04-25T17:24:16.544463_362f830b
+[2025-04-25T17:24:16.545325] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T17:24:46.588365] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T17:25:46.611356] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T17:26:46.635599] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T17:27:46.656811] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T17:28:46.677155] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T17:29:46.697498] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T17:30:46.717874] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T17:31:46.738198] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T17:32:46.758313] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T17:33:46.778754] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T17:34:46.799140] Minute updated. Total: 11 mins | Session: 11 mins
+[2025-04-25T18:42:30.614951] 🔁 Updated unrecovered session: 2025-04-25T17:24:16.544463_362f830b | Duration set to 11 mins
+[2025-04-25T18:42:30.615502] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T18:42:30.650858] ✅ current_session.json initialized with session_id: 2025-04-25T18:42:30.650271_cbe93b06
+[2025-04-25T18:42:30.651040] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T18:43:00.689609] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T18:44:00.718263] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T18:45:00.743978] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T18:46:00.764881] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T18:47:00.784788] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T18:48:00.805109] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T18:49:00.825328] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T18:50:00.847392] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T18:51:00.868578] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T18:52:42.264117] 🔁 Updated unrecovered session: 2025-04-25T18:42:30.650271_cbe93b06 | Duration set to 9 mins
+[2025-04-25T18:52:42.264579] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T18:52:42.301491] ✅ current_session.json initialized with session_id: 2025-04-25T18:52:42.300897_cdc19089
+[2025-04-25T18:52:42.301666] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T18:53:12.345691] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T18:54:12.374054] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T18:55:12.399227] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T18:56:12.419485] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T18:57:12.439805] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T18:58:12.460274] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T18:59:12.482704] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T19:00:12.503857] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T19:01:12.524629] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T19:03:09.263036] 🔁 Updated unrecovered session: 2025-04-25T18:52:42.300897_cdc19089 | Duration set to 9 mins
+[2025-04-25T19:03:09.263615] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T19:03:09.299666] ✅ current_session.json initialized with session_id: 2025-04-25T19:03:09.299033_41afcbe3
+[2025-04-25T19:03:09.299857] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T19:03:39.346744] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T19:04:39.372260] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T19:05:39.396614] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T19:06:39.417598] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T19:07:39.437786] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T19:08:39.458093] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T19:09:39.478340] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T19:10:39.498789] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T19:11:39.519108] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T19:55:29.628083] 🔁 Updated unrecovered session: 2025-04-25T19:03:09.299033_41afcbe3 | Duration set to 9 mins
+[2025-04-25T19:55:29.628673] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T19:55:29.665249] ✅ current_session.json initialized with session_id: 2025-04-25T19:55:29.664640_2ad140ff
+[2025-04-25T19:55:29.665414] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T19:55:59.710197] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T19:56:59.737378] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T19:57:59.763368] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T19:58:59.784771] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T19:59:09.992110] ✅ Triggered: 4-minute restart_gaianet.sh
+[2025-04-25T19:59:59.805432] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T20:00:59.825515] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T20:01:59.845939] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T20:02:59.866412] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T20:03:59.886630] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T20:04:59.906583] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T20:05:59.927037] Minute updated. Total: 11 mins | Session: 11 mins
+[2025-04-25T20:06:59.947070] Minute updated. Total: 12 mins | Session: 12 mins
+[2025-04-25T20:10:59.997634] 🔁 Updated unrecovered session: 2025-04-25T19:55:29.664640_2ad140ff | Duration set to 12 mins
+[2025-04-25T20:10:59.998166] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T20:11:00.035941] ✅ current_session.json initialized with session_id: 2025-04-25T20:11:00.035346_961c5b78
+[2025-04-25T20:11:00.036113] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T20:11:30.268571] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T20:12:30.297721] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T20:12:41.058030] ✅ Triggered: 4-minute restart_gaianet.sh
+[2025-04-25T20:13:30.324039] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T20:14:30.344909] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T20:15:30.365577] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T20:16:30.386285] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T20:17:30.406574] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T20:18:30.426813] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T20:19:30.447243] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T20:20:21.787299] 🔁 Updated unrecovered session: 2025-04-25T20:11:00.035346_961c5b78 | Duration set to 9 mins
+[2025-04-25T20:20:21.788565] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T20:20:21.825011] ✅ current_session.json initialized with session_id: 2025-04-25T20:20:21.824414_11c05058
+[2025-04-25T20:20:21.825173] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T20:20:51.874035] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T20:21:51.900340] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T20:22:01.577846] ✅ Triggered: 4-minute restart_gaianet.sh
+[2025-04-25T20:22:51.928155] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T20:24:13.304723] 🔁 Updated unrecovered session: 2025-04-25T20:20:21.824414_11c05058 | Duration set to 3 mins
+[2025-04-25T20:24:13.305924] ✅ Session recovery complete. Now it's time to reset session and runtime in separate scripts.
+[2025-04-25T20:24:13.342717] ✅ current_session.json initialized with session_id: 2025-04-25T20:24:13.342122_a144da28
+[2025-04-25T20:24:13.342884] 🔄 minute_runtime.json reset to 0.
+[2025-04-25T20:24:43.390472] Minute updated. Total: 1 mins | Session: 1 mins
+[2025-04-25T20:25:43.416416] Minute updated. Total: 2 mins | Session: 2 mins
+[2025-04-25T20:25:52.688879] ✅ Triggered: 4-minute restart_gaianet.sh
+[2025-04-25T20:26:43.450276] Minute updated. Total: 3 mins | Session: 3 mins
+[2025-04-25T20:27:43.471744] Minute updated. Total: 4 mins | Session: 4 mins
+[2025-04-25T20:28:43.492087] Minute updated. Total: 5 mins | Session: 5 mins
+[2025-04-25T20:29:43.512056] Minute updated. Total: 6 mins | Session: 6 mins
+[2025-04-25T20:30:43.532176] Minute updated. Total: 7 mins | Session: 7 mins
+[2025-04-25T20:31:43.557003] Minute updated. Total: 8 mins | Session: 8 mins
+[2025-04-25T20:32:43.577521] Minute updated. Total: 9 mins | Session: 9 mins
+[2025-04-25T20:33:43.597823] Minute updated. Total: 10 mins | Session: 10 mins
+[2025-04-25T20:34:43.618134] Minute updated. Total: 11 mins | Session: 11 mins
