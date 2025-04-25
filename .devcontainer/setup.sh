@@ -16,12 +16,7 @@ echo '* hard nofile 1048576' | tee -a /etc/security/limits.conf
 ulimit -n 1048576
 
 cd "/workspaces/heavyhitter"
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh && bash mega.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega_downloader.sh && bash mega_downloader.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/ognode.sh && bash ognode.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/pipe.sh && bash pipe.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gaiacloud.sh && bash gaiacloud.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh && bash restart_gaianet.sh
+
 
 # Check if Gbot.env exists in the current directory
 if [ -f "Gbot.env" ]; then
