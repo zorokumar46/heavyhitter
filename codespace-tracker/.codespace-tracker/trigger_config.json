@@ -32,13 +32,23 @@
     }
   },
   {
-    "label": "4-minute restart_gaianet.sh",
+    "label": "1-minute restart_gaianet.sh",
     "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh",
     "script_command": "bash restart_gaianet.sh",
     "cwd": "/workspaces/heavyhitter",
-    "flag_name": "trigger_restart_gaianet.flag",
+    "flag_name": "1min_trigger_restart_gaianet.flag",
     "conditions": {
-      "minute_runtime_minutes": 2
+      "minute_runtime_minutes": 1
+    }
+  },
+  {
+    "label": "3-minute restart_gaianet.sh",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh",
+    "script_command": "bash restart_gaianet.sh",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "3min_trigger_restart_gaianet.flag",
+    "conditions": {
+      "minute_runtime_minutes": 3
     }
   },
   {
@@ -46,9 +56,19 @@
     "script_url": "",
     "script_command": "docker start $(docker ps -a -q)",
     "cwd": "/workspaces/heavyhitter",
-    "flag_name": "trigger_docker_2min.flag",
+    "flag_name": "trigger_docker_5min.flag",
     "conditions": {
-      "current_session_minutes": 4
+      "current_session_minutes": 5
+    }
+  },
+  {
+    "label": "1_min_browser_docker_run",
+    "script_url": "",
+    "script_command": "docker start thorium",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_docker_browser.flag",
+    "conditions": {
+      "current_session_minutes": 1
     }
   },
   {
