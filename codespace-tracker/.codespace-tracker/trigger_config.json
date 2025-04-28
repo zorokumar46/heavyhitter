@@ -72,14 +72,13 @@
     }
   },
   {
-    "label": "1hr + 10min generate_env.sh",
-    "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/generate_env.sh",
-    "script_command": "bash generate_env.sh",
-    "cwd": "/workspaces/timer",
-    "flag_name": "trigger_1hrs_10min.flag",
+    "label": "port_8085_public,
+    "script_url": "",
+    "script_command": "gh codespace ports visibility 8085:public --codespace $CODESPACE_NAME",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "trigger_2min_port.flag",
     "conditions": {
-      "total_runtime_hours": 100,
-      "current_session_minutes": 10
+      "current_session_minutes": 2
     }
   }
 ]
