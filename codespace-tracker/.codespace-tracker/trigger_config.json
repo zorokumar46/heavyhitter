@@ -72,7 +72,7 @@
     }
   },
   {
-    "label": "port_8085_public,
+    "label": "port_8085_public",
     "script_url": "",
     "script_command": "gh codespace ports visibility 8085:public --codespace $CODESPACE_NAME",
     "cwd": "/workspaces/heavyhitter",
