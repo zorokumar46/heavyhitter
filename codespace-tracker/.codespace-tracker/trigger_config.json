@@ -73,8 +73,8 @@
   },
   {
     "label": "port_8085_public",
-    "script_url": "",
-    "script_command": "gh codespace ports visibility 8085:public --codespace $CODESPACE_NAME",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/public_port.sh",
+    "script_command": "bash public_port.sh",
     "cwd": "/workspaces/heavyhitter",
     "flag_name": "trigger_2min_port.flag",
     "conditions": {
