@@ -16,15 +16,51 @@ echo '* hard nofile 1048576' | tee -a /etc/security/limits.conf
 ulimit -n 1048576
 
 cd "/workspaces/heavyhitter"
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gh_installer.sh && bash gh_installer.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/megen.sh && bash megen.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh && bash mega.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega_downloader.sh && bash mega_downloader.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/ognode.sh && bash ognode.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/pipe.sh && bash pipe.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gaiacloud.sh && bash gaiacloud.sh
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh && bash restart_gaianet.sh
 
+scripts=(
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gh_installer.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/megen.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega_downloader.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/ognode.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/pipe.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gaiacloud.sh"
+  "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/restart_gaianet.sh"
+)
+
+echo "📥 Downloading all scripts..."
+
+# Store filenames in an array
+filenames=()
+
+for url in "${scripts[@]}"; do
+  filename=$(basename "$url")
+  echo "⬇️ Downloading $filename..."
+  curl -sSLO "$url"
+  filenames+=("$filename")  # add filename to array
+done
+
+echo "✅ All scripts downloaded!"
+
+echo "🔓 Making downloaded scripts executable..."
+for file in "${filenames[@]}"; do
+  chmod +x "$file"
+done
+
+echo "🚀 Running only downloaded scripts..."
+
+for file in "${filenames[@]}"; do
+  echo "⚙️ Running $file..."
+  bash "$file"
+  exit_code=$?
+  if [ $exit_code -ne 0 ]; then
+    echo "❌ $file failed with exit code $exit_code!"
+  else
+    echo "✅ $file completed successfully!"
+  fi
+done
+
+echo "🎉 All downloaded scripts executed!"
 # Check if Gbot.env exists in the current directory
 if [ -f "Gbot.env" ]; then
     echo "✅ Gbot.env found! Running Gbot.sh script..."
