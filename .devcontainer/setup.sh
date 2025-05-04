@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
 IFS=$'\n\t'
 
 echo "🔥 Running OP Setup - Performance Mode ON..."
