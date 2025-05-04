@@ -1,24 +1,29 @@
 #!/bin/bash
-
-# === Safe Flag Cleaner by Gyandu Bhai ===
+shopt -s nullglob
 
 TARGET_DIR="$PWD/.codespace-tracker/flags"
-KEEP_FLAGS=("trigger_browserbackup.flag" "trigger_mega-uploader.flag")  # ⬅️ Add more flags here
+KEEP_FLAGS=("trigger_browserbackup.flag" "trigger_mega-uploader.flag")
 
-if [[ -d "$TARGET_DIR" ]]; then
-  echo "🧹 Cleaning flags (excluding important ones)..."
-  
-  for flag in "$TARGET_DIR"/*; do
-    fname=$(basename "$flag")
-    if [[ ! " ${KEEP_FLAGS[*]} " =~ " ${fname} " ]]; then
-      echo "🗑️ Deleting: $fname"
-      rm -f "$flag"
-    else
-      echo "🛡️ Keeping: $fname"
-    fi
+if [[ ! -d "$TARGET_DIR" ]]; then
+  echo "❌ Directory $TARGET_DIR does not exist."
+  exit 1
+fi
+
+echo "🧹 Cleaning flags (excluding important ones)..."
+for flag in "$TARGET_DIR"/*; do
+  fname=$(basename "$flag")
+  keep=false
+  for k in "${KEEP_FLAGS[@]}"; do
+    [[ "$fname" == "$k" ]] && keep=true
   done
 
-  echo "✅ Flag cleanup done."
-else
-  echo "❌ Directory $TARGET_DIR does not exist."
-fi
+  if ! $keep; then
+    echo "🗑️ Deleting: $fname"
+    rm -f -- "$flag"
+  else
+    echo "🛡️ Keeping:  $fname"
+  fi
+done
+shopt -u nullglob
+
+echo "✅ Flag cleanup done."
