@@ -147,8 +147,6 @@ echo "💥 All containers stopped. Shanti mil gayi!"
 
 
 
-# Start Codespace Tracker
-cd /workspaces/heavyhitter/codespace-tracker
-./setup.sh
+
 
 echo "✅ All Done Bhai! Ultra OP Container READY 🚀"
