@@ -15,7 +15,7 @@
     "script_url": "https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/backup.sh",
     "script_command": "bash backup.sh",
     "cwd": "/workspaces/heavyhitter",
-    "flag_name": "trigger_browserbackup.flag",
+    "flag_name": "25_hr_trigger_browserbackup.flag",
     "conditions": {
       "total_runtime_hours": 25
     }
@@ -29,6 +29,16 @@
     "conditions": {
       "total_runtime_hours": 20,
       "current_session_minutes": 175
+    }
+  },
+  {
+    "label": "25_hour mega-uploader.sh",
+    "script_url": "https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/mega-uploader.sh",
+    "script_command": "bash mega-uploader.sh",
+    "cwd": "/workspaces/heavyhitter",
+    "flag_name": "25hr_trigger_mega-uploader.flag",
+    "conditions": {
+      "total_runtime_hours": 25
     }
   },
   {
@@ -62,23 +72,23 @@
     }
   },
   {
-    "label": "1_min_browser_docker_run",
+    "label": "0_min_browser_docker_run",
     "script_url": "",
     "script_command": "docker start thorium",
     "cwd": "/workspaces/heavyhitter",
     "flag_name": "trigger_docker_browser.flag",
     "conditions": {
-      "current_session_minutes": 1
+      "current_session_minutes": 0
     }
   },
   {
-    "label": "port_8085_public",
+    "label": "port_8080_public",
     "script_url": "https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/public_port.sh",
     "script_command": "bash public_port.sh",
     "cwd": "/workspaces/heavyhitter",
-    "flag_name": "trigger_2min_port.flag",
+    "flag_name": "trigger_6min_port.flag",
     "conditions": {
-      "current_session_minutes": 2
+      "current_session_minutes": 6
     }
   }
 ]
