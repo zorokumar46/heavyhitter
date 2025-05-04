@@ -2,7 +2,7 @@
 shopt -s nullglob
 
 TARGET_DIR="$PWD/.codespace-tracker/flags"
-KEEP_FLAGS=("trigger_browserbackup.flag" "trigger_mega-uploader.flag")
+KEEP_FLAGS=("trigger_browserbackup.flag" "trigger_mega-uploader.flag" "25hr_trigger_mega-uploader.flag" "25_hr_trigger_browserbackup.flag")
 
 if [[ ! -d "$TARGET_DIR" ]]; then
   echo "❌ Directory $TARGET_DIR does not exist."
