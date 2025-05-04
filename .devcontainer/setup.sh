@@ -107,10 +107,10 @@ else
 fi
 
 #pull image for browser
-docker pull  rohan014233/thorium
+#docker pull  rohan014233/thorium
 
 #run script for browser either restores it or makes new 
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/restore.sh && bash restore.sh
+#curl -sSLO https://raw.githubusercontent.com/naksh-07/Browser-Backup-Restore/refs/heads/main/restore.sh && bash restore.sh
 
 
 # Stop containers from restarting automatically
